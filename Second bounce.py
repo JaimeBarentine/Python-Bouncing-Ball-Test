@@ -34,9 +34,7 @@ clock = pygame.time.Clock()
 
 
 
-# create ball template to be cloned, yes I know I labeled it "test".
-# I don't feel like changing every instance of this, it's already taken me multiple
-# days of work and lots of googling to get any of this to fucking work
+# create ball template to be cloned
 class Test(pygame.sprite.Sprite):
 
     
