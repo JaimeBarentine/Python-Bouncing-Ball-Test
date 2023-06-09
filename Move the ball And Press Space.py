@@ -1,3 +1,5 @@
+# this was my first experience ever writing my own rendering system, for an assignment in a Pygame class in college
+
 import pygame
 
 pygame.init()
@@ -95,29 +97,3 @@ while run:
 
             
 pygame.quit()
-
-
-
-
-
-
-    
-    
-        
-
-
-
-def leftDoor():
-    d['currentRoom'] = "left"
-    ##print("I'm in the left room.")
-
-def middleDoor():
-    d['currentRoom'] = "middle"
-    ##print("I'm in the middle room.")
-
-def rightDoor():
-    d['currentRoom'] = "right"
-    ##print("I'm in the right room.")
-
-
-
